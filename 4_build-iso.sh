@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ISONAME="Mint-17-XFCE-32bit_Remaster.iso"
+ISONAME="LinuxMintRemaster.iso"
 
 echo "Clean all local Firefox configs/history/etc; Configure add-ons..."
 read -sn 1 -p "Then, press any key to continue..."
