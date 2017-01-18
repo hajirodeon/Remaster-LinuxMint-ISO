@@ -31,6 +31,6 @@ After such is setup, I have found it easy to revisit the remastering by running 
 
 * After reboot, within the VM, I run the bash script `4_build-iso.sh` to build an ISO file.  Here I clean my Firefox history, add-ons, and configurations.  The script will copy the profile into the build skeleton.
 
-I use the project https://github.com/prasmussen/gdrive to upload and download the resultant ISO to and from gDrive.
+I use the project https://github.com/prasmussen/gdrive to upload and download the resultant ISO to and from gDrive.  Another preferred option is to install a second Host-Only vNIC in the VM to `scp` the .ISO to your workstation host.
 
 I use [unetbootin](https://unetbootin.github.io/) to create a live USB of the resultant ISO.
